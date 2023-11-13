@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="admin ">
+                <img src="../Quangntph32839_WD18319_DuAnMau/Images/1602.jpg" alt="" width="100px" height="100px"
+                    class="mb">
+                <h2>Trang chủ</h2>
+                <div class="hr mb"></div>
+            </div>
+            <div class="menu mb">
+                <ul>
+                    <li><a href="./hom.html">Trang chủ</a></li>
+                    <li><a href="./danhmuc.html">Danh mục</a></li>
+                    <li><a href="./hanghoa.html">Hàng hóa</a></li>
+                    <li><a href="./khachhang.html">Khách hàng</a></li>
+                    <li><a href="./thongke.html">Thống kê</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home">
+            <div class="box">
+                <p>Administrator</p>
+            </div>
+            <div class="home1">
+                <h2>Danh mục</h2>
+                <div class="chart">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Mã loại</th>
+                            <th>Tên loại</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td class=td><input type="checkbox" name="" id=""></td>
+                            <td>1</td>
+                            <td>Utarium</td>
+                            <td>
+                                <a href="index.php?act=suadm&id=<?php echo $danhmuc['id'] ?>" ><input type="button"
+                                        value="Sửa" class="edit"></a>
+                                <a href="index.php?act=xoadm&id=<?php echo $danhmuc['id'] ?>" ><input type="button"
+                                        value="Xóa" class="delete"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="input">
+                    <input type="button" value="Chọn tất cả" class="button">
+                    <input type="button" value="Bỏ chọn tất cả" class="button">
+                    <input type="button" value="Xóa các mục" class="button">
+                    <a href=""><input type="button" value="Nhập thêm" class="button"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="./css.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="admin ">
+                <img src="../Quangntph32839_WD18319_DuAnMau/Images/1602.jpg" alt="" width="100px" height="100px"
+                    class="mb">
+                <h2>Trang chủ</h2>
+                <div class="hr mb"></div>
+            </div>
+            <div class="menu mb">
+                <ul>
+                    <li><a href="./hom.html">Trang chủ</a></li>
+                    <li><a href="./danhmuc.html">Danh mục</a></li>
+                    <li><a href="./hanghoa.html">Hàng hóa</a></li>
+                    <li><a href="./khachhang.html">Khách hàng</a></li>
+                    <li><a href="./thongke.html">Thống kê</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home">
+            <div class="box">
+                <p>Administrator</p>
+            </div>
+            <div class="home1">
+                <h2>Hàng hóa</h2>
+                <div class="search">
+                    <form action="" method="POST">
+                        <input type="text" name="kyw" placeholder="Nhập tên sản phẩm..." class="search2">
+                        <select name="iddm" class="button">
+                            <option value="0" selected>Xanh Decor</option>
+                            <option value="0">Phụ kiện</option>
+                        </select>
+                        <input type="submit" name="search" value="Tìm kiếm" class="button">
+                    </form>
+                </div>
+                <div class="chart">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Mã loại</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Hình</th>
+                            <th>Giá</th>
+                            <th>Lượt xem</th>
+                            <th>Mô tả</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td class=td><input type="checkbox" name="" id=""></td>
+                            <td>1</td>
+                            <td>Cây xanh Decor</td>
+                            <td><img src="../Quangntph32839_WD18319_DuAnMau/Images/1602.jpg" width="100" height="100">
+                            </td>
+                            <td>450$</td>
+                            <td>200</td>
+                            <td class=mota>Cây rất đẹp, mọi người nên mua</td>
+                            <td>
+                                <a href=""><input type="button" value="Sửa" class="edit"></a>
+                                <a href=""><input type="button" value="Xóa" class="delete"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="input">
+                    <input type="button" value="Chọn tất cả" class="button">
+                    <input type="button" value="Bỏ chọn tất cả" class="button">
+                    <input type="button" value="Xóa các mục" class="button">
+                    <a href=""><input type="button" value="Nhập thêm" class="button"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
